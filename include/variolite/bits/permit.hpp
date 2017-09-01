@@ -1,11 +1,11 @@
 #pragma once
 
+#include "fwd.hpp"
+
 #include <boost/fusion/support/is_sequence.hpp>
 #include <boost/mpl/bool.hpp>
 
 #include <type_traits>
-
-#include "fwd.hpp"
 
 namespace v2 { namespace extension {
 

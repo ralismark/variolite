@@ -1,9 +1,9 @@
 #pragma once
 
+#include "fusion_tag.hpp"
+
 #include <boost/fusion/support/category_of.hpp>
 #include <boost/mpl/bool.hpp>
-
-#include "fusion_tag.hpp"
 
 namespace boost { namespace fusion { namespace extension {
 

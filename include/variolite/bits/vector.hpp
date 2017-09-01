@@ -1,13 +1,13 @@
 #pragma once
 
-#include <type_traits>
-
-#include <boost/fusion/algorithm/iteration/for_each.hpp>
-
 #include "construct.hpp"
 #include "fwd.hpp"
 #include "permit.hpp"
 #include "vec_base.hpp"
+
+#include <boost/fusion/algorithm/iteration/for_each.hpp>
+
+#include <type_traits>
 
 namespace v2 {
 

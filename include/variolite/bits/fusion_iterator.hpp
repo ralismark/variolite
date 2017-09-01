@@ -1,10 +1,10 @@
 #pragma once
 
+#include "fusion_tag.hpp"
+
 #include <boost/fusion/support/category_of.hpp>
 #include <boost/fusion/support/iterator_base.hpp>
 #include <boost/mpl/int.hpp>
-
-#include "fusion_tag.hpp"
 
 namespace v2 {
 

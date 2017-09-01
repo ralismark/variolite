@@ -1,10 +1,11 @@
 #pragma once
 
+#include "construct.hpp"
+
 #include <boost/fusion/algorithm/transformation/transform.hpp>
 #include <boost/fusion/container/generation/vector_tie.hpp>
-#include <utility>
 
-#include "construct.hpp"
+#include <utility>
 
 namespace v2 { namespace detail {
 

@@ -1,8 +1,8 @@
 #pragma once
 
-#include <boost/fusion/support/tag_of_fwd.hpp>
-
 #include "fwd.hpp"
+
+#include <boost/fusion/support/tag_of_fwd.hpp>
 
 namespace boost { namespace fusion { namespace traits {
 

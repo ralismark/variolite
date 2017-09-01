@@ -1,9 +1,10 @@
 #pragma once
 
-#include <type_traits>
+#include "fusion_iterator.hpp"
+
 #include <boost/mpl/equal.hpp>
 
-#include "fusion_iterator.hpp"
+#include <type_traits>
 
 namespace boost { namespace fusion { namespace extension {
 

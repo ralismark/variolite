@@ -1,7 +1,7 @@
 #pragma once
 
-#include <boost/fusion/view/zip_view.hpp>
 #include <boost/fusion/algorithm/iteration/for_each.hpp>
+#include <boost/fusion/view/zip_view.hpp>
 
 namespace v2 { namespace detail {
 

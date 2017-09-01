@@ -1,9 +1,10 @@
 #pragma once
 
-#include <boost/fusion/functional/invocation/invoke.hpp>
-#include <array>
-
 #include "fwd.hpp"
+
+#include <boost/fusion/functional/invocation/invoke.hpp>
+
+#include <array>
 
 namespace v2 { namespace detail {
 

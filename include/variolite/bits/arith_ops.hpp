@@ -1,7 +1,7 @@
 #pragma once
 
-#include "can_op.hpp"
 #include "binary.hpp"
+#include "can_op.hpp"
 
 namespace v2 { namespace ops {
 

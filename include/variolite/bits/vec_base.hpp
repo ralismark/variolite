@@ -1,9 +1,9 @@
 #pragma once
 
+#include "fwd.hpp"
+
 #include <array>
 #include <utility>
-
-#include "fwd.hpp"
 
 namespace v2 {
 

@@ -1,9 +1,9 @@
 #pragma once
 
-#include <type_traits>
-
 #include "fusion_iterator.hpp"
 #include "fusion_sequence.hpp"
+
+#include <type_traits>
 
 namespace boost { namespace fusion { namespace extension {
 
