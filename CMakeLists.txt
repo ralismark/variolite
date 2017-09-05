@@ -22,3 +22,4 @@ include(TestHelper.cmake)
 #######################
 
 include_directories(include)
+add_subdirectory(tests)
