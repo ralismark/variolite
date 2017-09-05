@@ -13,7 +13,7 @@ function(add_fail_test TEST_NAME) # Args are source
 	add_test(NAME ${TEST_NAME}
 		COMMAND ${CMAKE_COMMAND} --build ${CMAKE_BINARY_DIR} --target ${TEST_NAME} --config $<CONFIGURATION>
 		)
-	set_tests_properties(failing_${TEST_NAME} PROPERTIES WILL_FAIL TRUE)
+	set_tests_properties(${TEST_NAME} PROPERTIES WILL_FAIL TRUE)
 endfunction()
 
 # register a test given the source files
