@@ -36,30 +36,3 @@ int c = b.x * b.y + a.z * a.w; // c = 1 * 2 + 3 * 4 = 14
 // access with index
 int d = c + a[4]; // d = 14 + 5
 ```
-
-## Working with boost sequences
-
-Variolite is able to work well with other types; however, support is not
-automatically given to all types. To add support, specialise
-`v2::extension::permit<T>` to inherit `boost::mpl::true_`, like this:
-
-```c++
-// Adding support for my_seq
-
-namespace v2 { namespace extension {
-
-	template <>
-	struct permit<my_seq>
-		: boost::mpl::true_
-	{
-	};
-
-} }
-```
-
-A second template parameter that defaults to void is available for SFINAE. Also,
-the sequence must fit the requirements for a fusion sequence. See boost
-documentation for more details on making a type a boost sequence.
-
-> Note: types do not have to be fusion's own containers - adapted/extended types
-> are fine
