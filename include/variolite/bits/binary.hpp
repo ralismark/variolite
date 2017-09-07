@@ -57,7 +57,7 @@ namespace v2 {
 	template <typename T1, typename T2, typename F>
 	auto binary(T1&& a, T2&& b, F f)
 	{
-		return binary_dispatch(v2::permitted<T1>(), std::forward<T1>(a), v2::permitted<T2>(), std::forward<T2>(b), f);
+		return detail::binary_dispatch(v2::permitted<T1>(), std::forward<T1>(a), v2::permitted<T2>(), std::forward<T2>(b), f);
 	}
 
 } // namespace v2

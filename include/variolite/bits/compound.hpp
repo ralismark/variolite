@@ -1,5 +1,7 @@
 #pragma once
 
+#include "permit.hpp"
+
 #include <boost/fusion/algorithm/iteration/for_each.hpp>
 #include <boost/fusion/view/zip_view.hpp>
 

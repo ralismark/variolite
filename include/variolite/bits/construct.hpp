@@ -5,6 +5,7 @@
 #include <boost/fusion/functional/invocation/invoke.hpp>
 
 #include <array>
+#include <type_traits>
 
 namespace v2 { namespace detail {
 
