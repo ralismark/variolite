@@ -36,3 +36,18 @@ int c = b.x * b.y + a.z * a.w; // c = 1 * 2 + 3 * 4 = 14
 // access with index
 int d = c + a[4]; // d = 14 + 5
 ```
+
+Arithmetic operators work as well. Addition and subtraction with two vectors is
+fine, and so is multiplying with a vector of a scalar. However, you cannot add a
+vector and a scalar.
+
+```c++
+// all these are OK
+auto value = a + 3 * b - z;
+auto twice_a = a * 2;
+a *= 3;
+```
+
+`v2::vector` interops with boost fusion sequences, and is one itself. You can
+construct one with any boost fusion sequence, and arithmetic operators work too
+(as long as one of the arguments is a `v2::vector`).
